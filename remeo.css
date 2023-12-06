@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: Poppins, sans-serif;
+}
+
+.nav {
+    width: 100vw;
+    justify-content: center;
+    box-shadow: 0px -5px 11px 0px;
+    padding: 7px;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+}
+
+.nav1 {
+    width: 70vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #ff6767;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0176c4;
+}
+
+.mainsec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstsec {
+    margin-top: 60px;
+    width: 60%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#secondsec {
+    height: 100%;
+    width: 60%;
+    background-color: #ddf198;
+}
+
+.sec1first {
+    padding: 17px 24px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.photo {
+    margin-right: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content :nth-child(2) {
+    font-size: 12px;
+}
+
+.content :nth-child(3) {
+    border: 1px solid #0176c4;
+    border-radius: 5px;
+    display: inline-block;
+    width: 95%;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+.content a {
+    text-decoration: none;
+    color: #0176c4;
+    font-size: 14px;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+
+.sec1first {
+    display: flex;
+}
+
+.accordion {
+    margin-bottom: 50px;
+}
+
+.accordion-item {
+    width: 40vw;
+}
+
+.sec2second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 12px 15px;
+}
+
+.bookappointment {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookappointment :nth-child(1) {
+    font-size: 16px;
+}
+
+.bookappointment :nth-child(2) {
+    color: #948e8e;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.bookappointment :nth-child(3) {
+    font-size: 14px;
+    color: #64bc6e;
+}
+
+.mainbuttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: rgb(33, 37, 41);
+}
+
+.img1 {
+    position: relative;
+    vertical-align: middle;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 11px;
+    border: 1px solid #c9c9c9;
+   
+}
+.mainbuttons> :nth-child(2){
+    border: 1px solid #c9c9c9;
+}
+
+
+.img1 span {
+    position: absolute;
+    top: 70%;
+    right: 25%;
+    font-size: 14px;
+}
+
+.clinicname {
+    margin: 50px 0px 0px 0px;
+}
+
+.clinicname b {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.addresssec {
+    margin: 25px;
+    margin-left: 22px;
+}
+
+.address {
+    display: flex;
+    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: #64bc6e;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.circle span {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.firstslid {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider1 {
+    text-align: center;
+}
+
+.second {
+    color: #64bc6e;
+}
+
+.slots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.slotitem {
+    width: 19vw;
+    /* padding: 9px 116px; */
+    border: 1px solid #d0d0d0;
+    margin: 4px 4px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 38px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.continue {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.continue button {
+    border: none;
+    border-radius: 4px;
+    background-color: #ccc;
+    font-size: small;
+    padding: 7px 20px;
+    color: #fff;
+}
+
+@media screen and (max-width:542px) {
+    .mainbuttons {
+        margin-top: 10px;
+    }
+    .circle{
+        width: 50px;
+    }
+    
+}
+@media screen and (max-width:542px) {
+    .circle{
+        width: 50px;
+    }
+    
+    
+}
+@media screen and (min-width:542px) and (max-width:772px) {
+    .circle{
+        width: 35px;
+    }
+
+    
+}
+@media screen and (min-width:772px) and (max-width:860px) {
+    .circle{
+        width: 30px;
+    }
+    
+}
+@media screen and (min-width:860px) and (max-width:919px) {
+    .circle{
+        width: 30px;
+    }
+    
+}
+@media screen and (max-width:860px){
+
+    .mainbuttons {
+        margin-top: 10px;
+    }
+    .clinicname {
+        margin: 30px 0px 0px 0px;
+    }
+    
+}
